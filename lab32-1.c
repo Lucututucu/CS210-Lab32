@@ -15,7 +15,9 @@ int main() {
 
     // Write your own code to test the base and recursive cases of tail_factorial()
     // to determine that it is working correctly.
+    int input = 9;
 
+    printf("%d\n", tail_factorial(input, 1));
 
     return 0;
 }

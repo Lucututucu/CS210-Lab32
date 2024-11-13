@@ -21,6 +21,16 @@ int main() {
 
     // Write your own code to test the base and recursive cases of collatz() to determine
     // that it is working correctly
+    int input = 3;
+    printf("%d takes %d steps.\n", input, collatz(input, 0));
+    input = 27;
+    printf("%d takes %d steps.\n", input, collatz(input, 0));
+    input = 28;
+    printf("%d takes %d steps.\n", input, collatz(input, 0));
+    input = 29;
+    printf("%d takes %d steps.\n", input, collatz(input, 0));
+    input = 30;
+    printf("%d takes %d steps.\n", input, collatz(input, 0));
 
     return 0;
 }

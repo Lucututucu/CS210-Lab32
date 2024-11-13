@@ -19,7 +19,7 @@ int main() {
 
     // Write your own code to test the base and recursive cases of calculateDecayDuration() to determine
     // that it is working correctly
-
+    printf("%.1lf\n", calculateDecayDuration(4, 30, 0));
 
     return 0;
 }
